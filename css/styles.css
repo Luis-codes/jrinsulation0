@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header-container {
+  background-color: #235;
+  background-image: url(images/image0.jpg);
+  background-attachment: fixed;
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-banner {
+  text-align: center;
+}
+
+.header-row {
+  padding: 200px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.h1-style {
+  font-size: 60px;
+  color: white;
+}
+
+.p-quote {
+  color: blue;
+  font-size: 26px;
+  margin-top: 45px;
+}
+
+.p-quote a {
+  text-decoration: none;
+  color: white;
+}
+
+.p-quote a:hover {
+  font-size: 32px;
+  color: green;
+}
+
+.hot {
+  color: red;
+}
+
+.yellow {
+  color: yellow;
+}
+
+.section-2 {
+  padding: 100px;
+}
+
+i {
+  text-align: center;
+}
+
+div {
+  text-align: center;
+}
+
+.section3-container {
+  background-image: url(images/image3.jpeg);
+}
