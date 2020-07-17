@@ -1,6 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Montserrat:wght@400;700;900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
+}
+
+body {
+  width: fit-content;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .header-container {
@@ -24,22 +31,36 @@
 .h1-style {
   font-size: 60px;
   color: white;
+  font-family: 'Merriweather', serif;
+}
+
+.p-header {
+  font-size: 26px;
+  margin-top: 45px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .p-quote {
-  color: blue;
+  color: #4b321e;
   font-size: 26px;
   margin-top: 45px;
+  font-family: 'Montserrat', sans-serif;
 }
 
-.p-quote a {
+.p-header a {
   text-decoration: none;
   color: white;
 }
 
-.p-quote a:hover {
-  font-size: 32px;
-  color: green;
+.p-header a:hover {
+  text-decoration: none;
+  color: gainsboro;
+  font-weight: 900;
+}
+
+.p-section2 {
+  color: #58606e;
 }
 
 .hot {
@@ -51,11 +72,14 @@
 }
 
 .section-2 {
-  padding: 100px;
+  padding: 75px;
+  background-image: linear-gradient(to right, rgba(247, 242, 245), rgba(98, 79, 50));
 }
 
 i {
   text-align: center;
+  font-size: 8rem !important;
+  color: white;
 }
 
 div {
@@ -63,5 +87,68 @@ div {
 }
 
 .section3-container {
-  background-image: url(images/image3.jpeg);
+  background-image: url(images/under-construction.jpg);
+  background-attachment: fixed;
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.icon-floats {
+  float: left;
+  margin: auto;
+  position: absolute;
+  top: 150px;
+  left: 40px;
+}
+
+.icon-divs {
+  width: 50%;
+  margin: auto;
+  margin-left: 200px;
+}
+
+.icon-float {
+  float: right;
+  margin: auto;
+  position: absolute;
+  bottom: 80px;
+  right: 100px;
+}
+
+.icon-div {
+  width: 50%;
+  margin: auto;
+  margin-right: 300px;
+}
+
+.section-1-img {
+  margin: auto;
+  margin-top: 40px;
+  border-radius: 6%;
+  height: 500px !important;
+}
+
+.hello-world {
+  font-family: 'Merriweather', serif;
+}
+
+.spray-foam-h1 {
+  font-family: 'Merriweather', serif;
+}
+
+.contact-form {
+  height: 900px;
+  width: auto;
+  background-color: rgba(0,0,0,.3);
+
+}
+
+.sec3-h1 {
+  text-align: center;
+}
+
+footer {
+  color: white;
+  background-image: linear-gradient(to right, rgba(247, 242, 245), rgba(98, 79, 50));
 }
