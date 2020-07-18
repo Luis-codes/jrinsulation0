@@ -50,9 +50,20 @@ body {
 
 .p-quotes {
   color: white;
-  font-size: 26px;
-  margin-top: 45px;
+  font-size: 4.5rem;
+  margin: 40px 0 20px 0;
   font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  text-shadow: 3px 3px #4b321e;
+}
+
+.p-icons {
+  color: white;
+  font-size: 8rem;
+  margin: 20px 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-shadow: 3px 3px #4b321e;
 }
 
 .p-header a {
@@ -83,9 +94,9 @@ body {
   background-image: linear-gradient(to right, rgba(247, 242, 245), rgba(98, 79, 50));
 }
 
-i {
+.sec2-icons {
   text-align: center;
-  font-size: 8rem !important;
+  font-size: 8rem;
   color: white;
 }
 
@@ -105,8 +116,8 @@ div {
   float: left;
   margin: auto;
   position: absolute;
-  top: 150px;
-  left: 40px;
+  top: 250px;
+  left: 70px;
 }
 
 .icon-divs {
@@ -119,21 +130,21 @@ div {
   float: right;
   margin: auto;
   position: absolute;
-  bottom: 80px;
-  right: 100px;
+  bottom: 120px;
+  right: 70px;
 }
 
 .icon-div {
   width: 50%;
   margin: auto;
-  margin-right: 300px;
+  margin-right: 200px;
 }
 
 .section-1-img {
   margin: auto;
   margin-top: 40px;
   border-radius: 6%;
-  height: 500px !important;
+  height: 800px !important;
 }
 
 .hello-world {
@@ -164,4 +175,14 @@ footer {
   font-size: 2rem;
   color: white;
   background-image: linear-gradient(to right, rgba(247, 242, 245), rgba(98, 79, 50));
+}
+
+.fa-home {
+  margin: 40px 0;
+  text-shadow: 3px 3px #4b321e;
+}
+
+.for-images {
+  height: 600px !important;
+  width: fit-content;
 }
