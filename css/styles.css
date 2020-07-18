@@ -170,6 +170,12 @@ div {
   text-align: center;
 }
 
+.our-work-h2 {
+  font-family: 'Merriweather', serif;
+  color: white;
+  font-size: 4.5rem;
+}
+
 footer {
   font-weight: 900;
   font-size: 2rem;
