@@ -24,7 +24,7 @@ body {
 }
 
 .header-row {
-  padding: 200px;
+  padding: 210px;
   background-color: rgba(0, 0, 0, 0.2);
 }
 
@@ -43,6 +43,13 @@ body {
 
 .p-quote {
   color: #4b321e;
+  font-size: 26px;
+  margin-top: 45px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.p-quotes {
+  color: white;
   font-size: 26px;
   margin-top: 45px;
   font-family: 'Montserrat', sans-serif;
@@ -131,10 +138,14 @@ div {
 
 .hello-world {
   font-family: 'Merriweather', serif;
+  color: white;
+  font-size: 4.5rem;
 }
 
 .spray-foam-h1 {
   font-family: 'Merriweather', serif;
+  color: white;
+  font-size: 4.5rem;
 }
 
 .contact-form {
@@ -149,6 +160,8 @@ div {
 }
 
 footer {
+  font-weight: 900;
+  font-size: 2rem;
   color: white;
   background-image: linear-gradient(to right, rgba(247, 242, 245), rgba(98, 79, 50));
 }
