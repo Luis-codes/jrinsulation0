@@ -188,6 +188,8 @@ footer {
   font-size: 2rem;
   color: white;
   background-image: linear-gradient(to right, rgba(247, 242, 245), rgba(98, 79, 50));
+  display: flex !important;
+  justify-content: center;
 }
 
 .fa-home {
@@ -239,4 +241,17 @@ li a:hover {
 
 .list-job-types {
   margin-top: 40px;
+}
+
+.display-inline {
+  display: inline;
+  margin: 0 15px;
+}
+
+footer div a {
+  color: white;
+}
+
+footer div a:hover {
+  color: #4b321e;
 }
