@@ -12,11 +12,13 @@ body {
 
 .header-container {
   background-color: #235;
-  background-image: url(images/image0.jpg);
+  background: url(images/image0.jpg) no-repeat center center;
   background-attachment: fixed;
   background-position: 100%;
-  background-repeat: no-repeat;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
 .header-banner {
@@ -115,7 +117,23 @@ div {
   background-position: 100%;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
+
+.section-2-container {
+  background-image: url(images/image17.jpeg);
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-attachment: fixed;
+  background-position: 100%;
+  background-repeat: no-repeat;
+}
+
+
 
 .icon-floats {
   float: left;
@@ -254,4 +272,80 @@ footer div a {
 
 footer div a:hover {
   color: #4b321e;
+}
+
+.left-video {
+  height: 50px;
+  position: absolute;
+  top: 278px !important;
+}
+
+.right-video {
+  height: 50px;
+  position: absolute;
+  top: 278px !important;
+}
+
+.underline {
+  border: 0.8px solid #4b321e;
+  width: 30%;
+  margin: auto;
+  opacity: 0.4;
+}
+
+.show-p {
+  font-size: 8rem;
+  color: yellow;
+  font-weight: 900;
+  text-shadow: 2px 2px #4b321e;
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .section3-container {
+    background: url(images/under-construction.jpg);
+    background-attachment: initial;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  }
+
+  .section-2-container {
+    background-image: url(images/image17.jpeg);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-attachment: initial;
+    background-position: 100%;
+    background-repeat: no-repeat;
+  }
+
+  .header-container {
+    background-color: #235;
+    background-image: url(images/image0.jpg);
+    background-attachment: initial;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  }
+
+  .hide-arrow {
+    display: none !important;
+  }
+
+  .show-p {
+    font-size: 8rem;
+    color: yellow;
+    font-weight: 900;
+    text-shadow: 2px 2px #4b321e;
+    display: block;
+  }
+
 }
