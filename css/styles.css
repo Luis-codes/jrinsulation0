@@ -6,8 +6,8 @@
 }
 
 body {
-  width: fit-content;
   font-family: 'Montserrat', sans-serif;
+  width: fit-content;
 }
 
 .header-container {
@@ -208,6 +208,7 @@ footer {
   background-image: linear-gradient(to right, rgba(247, 242, 245), rgba(98, 79, 50));
   display: flex !important;
   justify-content: center;
+  padding-top: 5px;
 }
 
 .fa-home {
@@ -302,10 +303,11 @@ footer div a:hover {
 }
 
 @media (max-width: 768px) {
+
   .section3-container {
     background: url(images/under-construction.jpg);
     background-attachment: initial;
-    background-position: 100%;
+    background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
     -webkit-background-size: cover;
@@ -336,16 +338,26 @@ footer div a:hover {
     -o-background-size: cover;
   }
 
-  .hide-arrow {
-    display: none !important;
+  footer {
+    height: 75px;
   }
 
-  .show-p {
-    font-size: 8rem;
-    color: yellow;
-    font-weight: 900;
-    text-shadow: 2px 2px #4b321e;
-    display: block;
+  .display-inline{
+    font-size: 2em;
+    padding-top: 10px;
+    margin: 0 35px;
+  }
+
+  .p-header {
+    line-height: 2;
+  }
+
+  .img-margin {
+    margin-bottom: 45px;
+  }
+
+  .p-quote {
+    line-height: 1.75;
   }
 
 }
