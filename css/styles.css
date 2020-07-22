@@ -302,7 +302,7 @@ footer div a:hover {
   display: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
 
   .section3-container {
     background: url(images/under-construction.jpg);
@@ -342,7 +342,7 @@ footer div a:hover {
     height: 75px;
   }
 
-  .display-inline{
+  .display-inline {
     font-size: 2em;
     padding-top: 10px;
     margin: 0 35px;
@@ -359,5 +359,8 @@ footer div a:hover {
   .p-quote {
     line-height: 1.75;
   }
+}
 
+.list-services {
+  padding: 250px 0 0 0;
 }
