@@ -10,7 +10,17 @@ body {
   width: fit-content;
 }
 
-.header-container {
+div {
+  text-align: center;
+}
+
+h2 {
+  text-shadow: 3px 3px #4b321e;
+}
+
+/* Header Section */
+
+#header-section {
   background-color: #235;
   background: url(images/image0.jpg) no-repeat center center;
   background-attachment: fixed;
@@ -21,20 +31,12 @@ body {
   -o-background-size: cover;
 }
 
-.header-banner {
-  text-align: center;
-}
-
 .header-row {
   padding: 210px;
   background-color: rgba(0, 0, 0, 0.2);
 }
 
-h2 {
-  text-shadow: 3px 3px #4b321e;
-}
-
-.h1-style {
+.h1-header {
   font-size: 60px;
   color: white;
   font-family: 'Merriweather', serif;
@@ -46,6 +48,20 @@ h2 {
   margin-top: 45px;
   color: white;
   font-family: 'Montserrat', sans-serif;
+}
+
+.form-btn {
+  border: 1px solid #4b321e;
+  background-color: #fff;
+  padding: 8px 18px;
+  border-radius: 6px;
+}
+
+/* Section 2 */
+
+#info-section {
+  padding: 75px;
+  background-image: linear-gradient(to right, rgba(247, 242, 245), rgba(98, 79, 50));
 }
 
 .p-quote {
@@ -96,10 +112,7 @@ h2 {
   color: yellow;
 }
 
-.section-2 {
-  padding: 75px;
-  background-image: linear-gradient(to right, rgba(247, 242, 245), rgba(98, 79, 50));
-}
+
 
 .sec2-icons {
   text-align: center;
@@ -112,9 +125,9 @@ div {
 }
 
 .section3-container {
-  background-image: url(images/under-construction.jpg);
+  background-image: url(images/image46.jpeg);
   background-attachment: fixed;
-  background-position: 100%;
+  background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
   -webkit-background-size: cover;
@@ -185,10 +198,9 @@ div {
 }
 
 .contact-form {
-  height: 900px;
+  padding: 50px;
   width: auto;
-  background-color: rgba(0,0,0,.3);
-
+  background-color: rgba(255,255,255,0.13);
 }
 
 .sec3-h1 {
@@ -199,6 +211,15 @@ div {
   font-family: 'Merriweather', serif;
   color: white;
   font-size: 4.5rem;
+}
+
+.col-form {
+  background-image: linear-gradient(to right, rgba(247, 242, 245), rgba(98, 79, 50));
+  width: 50%;
+  margin: auto;
+  padding: 75px;
+  border-radius: 6px;
+
 }
 
 footer {
@@ -256,8 +277,6 @@ li a:hover {
   text-shadow: 1px 1px #4b321e;
 }
 
-
-
 .list-job-types {
   margin-top: 40px;
 }
@@ -305,7 +324,7 @@ footer div a:hover {
 @media (max-width: 1024px) {
 
   .section3-container {
-    background: url(images/under-construction.jpg);
+    background: url(images/image46.jpeg);
     background-attachment: initial;
     background-position: 50%;
     background-repeat: no-repeat;
@@ -326,7 +345,7 @@ footer div a:hover {
     background-repeat: no-repeat;
   }
 
-  .header-container {
+  #header-section {
     background-color: #235;
     background-image: url(images/image0.jpg);
     background-attachment: initial;
@@ -336,6 +355,22 @@ footer div a:hover {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+  }
+
+  .icon-float {
+    display: none;
+  }
+
+  .icon-floats {
+    display: none;
+  }
+
+  .icon-divs {
+    margin-left: auto;
+  }
+
+  .icon-div {
+    margin-right: auto;
   }
 
   footer {
@@ -363,4 +398,103 @@ footer div a:hover {
 
 .list-services {
   padding: 250px 0 0 0;
+}
+
+.form-style-4{
+  width: 500px;
+  margin: auto;
+	font-size: 16px;
+	background-image: linear-gradient(to right, rgba(247, 242, 245), rgba(98, 79, 50));
+	padding: 30px 30px 15px 30px;
+  border-radius: 6px;
+  -webkit-box-shadow: 0px 0px 24px 13px rgba(75,50,30,1);
+  -moz-box-shadow: 0px 0px 24px 13px rgba(75,50,30,1);
+  box-shadow: 0px 0px 24px 13px rgba(75,50,30,1);
+}
+.form-style-4 input[type=submit],
+.form-style-4 input[type=button],
+.form-style-4 input[type=text],
+.form-style-4 input[type=email],
+.form-style-4 input[type=phone],
+.form-style-4 textarea,
+.form-style-4 label
+{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	color: #fff;
+  padding: 5%;
+  text-shadow: 1px 1px #4b321e;
+}
+.form-style-4 label {
+	display: block;
+	margin: 5px 10px 10px 0;
+}
+
+.form-style-4 input[type=text],
+.form-style-4 input[type=email],
+.form-style-4 input[type=phone]
+{
+	background: transparent;
+	border: none;
+	border-bottom: 1px dashed #4b321e;
+	outline: none;
+	padding: 0px 0px 0px 0px;
+	font-style: italic;
+}
+.form-style-4 textarea{
+	font-style: italic;
+	padding: 0px 0px 0px 0px;
+	background: transparent;
+	outline: none;
+	border: none;
+	border-bottom: 1px dashed #4b321e;
+	overflow: hidden;
+	resize:none;
+	height:20px;
+}
+
+.form-style-4 textarea:focus,
+.form-style-4 input[type=text]:focus,
+.form-style-4 input[type=email]:focus,
+.form-style-4 input[type=phone] :focus
+{
+	border-bottom: 1px dashed #D9FFA9;
+}
+
+.form-style-4 input[type=submit],
+.form-style-4 input[type=button]{
+	background-color: rgba(0,0,0,0.08);
+	border: none;
+	padding: 8px 15px;
+	border-radius: 5px;
+	color: #fff;
+}
+.form-style-4 input[type=submit]:hover,
+.form-style-4 input[type=button]:hover{
+background: #4b321e;
+}
+
+.services-dropdown {
+  background-color: rgba(0,0,0,0.03);
+  font-size: 1em;
+  color: gainsboro;
+  border: none;
+  border-radius: 3px;
+  text-shadow: 1px 1px #4b321e;
+}
+
+span {
+  margin-right: 10px;
+}
+
+select {
+  width: 210px;
+}
+
+option {
+  color: #000;
+}
+
+.column-form {
+  margin-top: 50px;
 }
