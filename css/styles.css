@@ -103,6 +103,22 @@ select {
   color: yellow;
 }
 
+.p-display-media {
+  font-size: 2rem;
+  color: gainsboro;
+  display: none;
+  margin-top: 25px;
+}
+
+.p-display-media a {
+  color: gainsboro;
+}
+
+.p-display-media a:hover {
+  text-decoration: none;
+  color: gainsboro; font-weight: 900;
+}
+
 /* About Us */
 #about-us {
   padding: 75px;
@@ -154,22 +170,22 @@ select {
   padding: 100px 20px;
 }
 
-.video-width {
+ .video-width {
   background-color: #000;
-  /* width: 625px;
-  height: 585px; */
+  width: 100%;
+  height: 630px;
 }
 
 .left-video {
   height: 50px;
   position: absolute;
-  top: 278px !important;
+  margin: auto 0;
 }
 
 .right-video {
   height: 50px;
   position: absolute;
-  top: 278px !important;
+  margin: auto 0;
 }
 
 /* Services */
@@ -209,16 +225,16 @@ li {
   background-image: linear-gradient(to right, rgba(247, 242, 245), rgba(98, 79, 50));
   padding: 30px;
   border-radius: 6px;
-  -webkit-box-shadow: 0px 0px 24px 13px rgba(75, 50, 30, 1);
-  -moz-box-shadow: 0px 0px 24px 13px rgba(75, 50, 30, 1);
-  box-shadow: 0px 0px 24px 13px rgba(75, 50, 30, 1);
+  -webkit-box-shadow: 0 0 24px 13px rgba(75, 50, 30, 1);
+  -moz-box-shadow: 0 0 24px 13px rgba(75, 50, 30, 1);
+  box-shadow: 0 0 24px 13px rgba(75, 50, 30, 1);
 }
 
 .form-style-4 input[type=submit],
 .form-style-4 input[type=button],
 .form-style-4 input[type=text],
 .form-style-4 input[type=email],
-.form-style-4 input[type=phone],
+.form-style-4 input[type=tel],
 .form-style-4 textarea,
 .form-style-4 label {
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -235,20 +251,18 @@ li {
 
 .form-style-4 input[type=text],
 .form-style-4 input[type=email],
-.form-style-4 input[type=phone] {
+.form-style-4 input[type=tel] {
   background: transparent;
   border: none;
   border-bottom: 1px dashed #4b321e;
-  outline: none;
-  padding: 0px 0px 0px 0px;
+  padding: 0 0 0 0;
   font-style: italic;
 }
 
 .form-style-4 textarea {
   font-style: italic;
-  padding: 0px 0px 0px 0px;
+  padding: 0 0 0 0;
   background: transparent;
-  outline: none;
   border: none;
   border-bottom: 1px dashed #4b321e;
   overflow: hidden;
@@ -259,8 +273,9 @@ li {
 .form-style-4 textarea:focus,
 .form-style-4 input[type=text]:focus,
 .form-style-4 input[type=email]:focus,
-.form-style-4 input[type=phone] :focus {
+.form-style-4 input[type=tel] :focus {
   border-bottom: 1px dashed #D9FFA9;
+  outline: none;
 }
 
 .form-style-4 input[type=submit],
@@ -287,6 +302,10 @@ li {
 
 .form-btn {
   border-radius: 6px;
+  transition: all 1s;
+  -moz-webkit-transition: all 1s;
+  -o-webkit-transition: all 1s;
+  -webkit-transition: all 1s;
 }
 
 .contact-h3-margin {
@@ -308,10 +327,23 @@ li {
 
 #footer i:hover {
   color: #4b321e;
+  transition: all 1s;
+  -moz-webkit-transition: all 1s;
+  -o-webkit-transition: all 1s;
+  -webkit-transition: all 1s;
+}
+
+#footer p:hover {
+  color: #4b321e;
+  transition: all 1s;
+  -moz-webkit-transition: all 1s;
+  -o-webkit-transition: all 1s;
+  -webkit-transition: all 1s;
+  cursor: crosshair;
 }
 
 /* Media Queries */
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .form-style-4 {
     width: auto;
     margin: auto;
@@ -319,15 +351,61 @@ li {
     background-image: linear-gradient(to right, rgba(247, 242, 245), rgba(98, 79, 50));
     padding: 30px 30px 15px 30px;
     border-radius: 6px;
-    -webkit-box-shadow: 0px 0px 24px 13px rgba(75, 50, 30, 1);
-    -moz-box-shadow: 0px 0px 24px 13px rgba(75, 50, 30, 1);
-    box-shadow: 0px 0px 24px 13px rgba(75, 50, 30, 1);
+    -webkit-box-shadow: 0 0 24px 13px rgba(75, 50, 30, 1);
+    -moz-box-shadow: 0 0 24px 13px rgba(75, 50, 30, 1);
+    box-shadow: 0 0 24px 13px rgba(75, 50, 30, 1);
   }
 
   .services-dropdown {
     margin-top: 20px;
   }
 
+  .display-none {
+    display: none;
+  }
+
+  .media-p {
+    font-size: 1rem;
+  }
+
+  .media-h1 {
+    font-size: 3.3rem;
+  }
+
+  .main-media-p {
+    font-size: 1.5rem;
+  }
+
+  .p-icons {
+   margin-top: 25px;
+  }
+
+  li {
+    font-size: 1.46rem;
+    display: block;
+  }
+
+  .h1-header {
+    font-size: 2.66rem;
+  }
+
+  .h2-header {
+    font-size: 2rem;
+    margin: 25px 0;
+  }
+
+  .h3-header {
+    font-size: 2.35rem;
+  }
+
+  .p-display-media {
+    display: block;
+  }
+
+  .main-container {
+    padding: 300px;
+  }
+}
 
 
 @media (max-width: 1024px) {
@@ -350,6 +428,17 @@ li {
     -moz-background-size: cover;
     -o-background-size: cover;
   }
-}
 
+  #contact-form {
+    background-image: url(images/image15.jpg);
+    background-attachment: initial;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    padding: 50px 50px 125px;
+    background-color: rgba(255, 255, 255, 0.13);
+  }
 }
